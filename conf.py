@@ -9,7 +9,6 @@
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath('../Canoga'))
 
 project = 'XIVMPG'
 copyright = '2022, GJ'
@@ -33,6 +32,6 @@ html_theme_options = {
     'navigation_depth': 10,
     "collapse_navigation" : False
 }
-html_static_path = ['_static']
+# html_static_path = ['_static']
 
 
