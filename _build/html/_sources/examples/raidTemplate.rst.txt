@@ -1,0 +1,77 @@
+********************
+Party Finder
+********************
+
+==================
+Search Comment
+==================
+.. code-block:: text
+
+    This is the text can be placed in the party finder search comment. Text in this box can be one click copied
+
+
+==================
+Definitions
+==================
+
+.. Use this section the define each of the terms in the search comment, e.g. A2C - Aim to clear
+
+    term 1
+       This is the definition of term 1
+
+    term 2
+        This is the definition of term 2
+        It can span multiple lines
+        as long as the indentation matches
+
+    term 3
+        This is the definition of term 3
+
+        .. admonition:: Note
+
+            You can add an admonition box to draw attention to something specific, such as an example or further clarification
+            It can span multiple lines
+            as long as the indentation matches
+
+    term 4
+        This is the definition of term 4
+            * You can use an unordered list by prefacing the line with an asterisks
+            * Lists must match the parent indentation level
+
+                * You can add a sublist to a list
+                * Sublists must match the parent indentation level
+
+            # You can use an ordered list by prefacing the line with a octothorpe
+            # Ordered lists must match the parent indentation level
+
+                # Sub ordered lists can be used and will follow their own number range
+
+            # The parent list will continue its number order after the sublist ends
+
+    R4: G1mid, G2wall (Ruby Glow 4)
+        * Topaz Stones spawns two sets of yellow crystals — one set of three and another set of two. Move to the side with two yellow crystals.
+        * Light parties stack on the two crystals.  Group 1 takes the crystal closest to the center of the arena, group 2 takes the crystal closest to the wall
+
+    R5: G1 NW(Q4) G2  SE(Q2) (Ruby Glow 5)
+        * Group one starts in Quadrant 4 (Intersection of North and West)
+        * Group two starts in Quadrant 2 (Intersection of South and East)
+
+    R6: Start Go CCW (Ruby Glow 6)
+        Start at waymark one.  Moving counter-clockwise inclusively, move to the first quadrant with 2 stones.
+
+==========
+Waymarks
+==========
+
+    .. image:: images/p5sMarkers.png
+
+==============
+Waymark import
+==============
+.. code-block:: text
+
+    {"Name":"Fight","MapID":873,"A":{"X":100.0,"Y":-300.0,"Z":93.0,"ID":0,"Active":true},"B":{"X":107.0,"Y":-300.0,"Z":100.0,"ID":1,"Active":true},"C":{"X":100.0,"Y":-300.0,"Z":107.0,"ID":2,"Active":true},"D":{"X":93.0,"Y":-300.0,"Z":100.0,"ID":3,"Active":true},"One":{"X":112.5,"Y":-300.0,"Z":87.5,"ID":4,"Active":true},"Two":{"X":112.5,"Y":-300.0,"Z":112.5,"ID":5,"Active":true},"Three":{"X":87.5,"Y":-300.0,"Z":112.5,"ID":6,"Active":true},"Four":{"X":87.5,"Y":-300.0,"Z":87.5,"ID":7,"Active":true}}
+
+********************
+Mechanics
+********************

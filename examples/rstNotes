@@ -1,0 +1,69 @@
+##################
+H1: document title
+##################
+
+Introduction text.
+
+
+*********
+Sample H2
+*********
+
+Sample content.
+
+
+**********
+Another H2
+**********
+
+Sample H3
+=========
+
+Sample H4
+---------
+
+Sample H5
+^^^^^^^^^
+
+Sample H6
+"""""""""
+
+And some text.
+
+##################
+Endwalker
+##################
+
+
+*************
+Savage Raids
+*************
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Abyssos: The Fifth Circle (Savage)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Party Finder
+=====================
+
+---------------
+Search Comment
+---------------
+.. code-block:: text
+
+    role-pair | H:123 R432 T:ABC M:DCB | THMR-ABCD | R4: G1mid, G2wall | R5: G1 NW(Q4) G2  SE(Q2) |  R6: Start Go CCW
+
+
+------------
+Definitions
+------------
+
+    role pair
+       Soak poison puddles with your role buddy.  e.g. Ranged DPS share a puddle, Healers share a puddle, etc
+
+
+    H:123 R432 T:ABC M:DCB
+        Start at respective marker.  When puddles spawn, move in your order to the nearest puddle inclusive (that is, if the puddle spawns at your start location, stay there)
+        e.g. Healers start at waymark 1, puddle spawns at waymark 2, healers will move to waymark 2 and absorb tower
+
+
